@@ -1,6 +1,6 @@
 # AI Data Engine: Text Safety Evaluation
 
-**TL;DR:** Label inconsistency (Kappa ~0.4–0.5) is the bottleneck. Improving **annotation quality—not model complexity** unlocks the next gains (F1: 0.866).
+**TL;DR:** Label inconsistency (Kappa ~0.4–0.5) is the bottleneck. Improving **annotation quality—not model complexity—is what unlocks the next gains** (F1: 0.866).
 
 > Simulation of a production AI data engine for improving neural network performance through data quality.
 
