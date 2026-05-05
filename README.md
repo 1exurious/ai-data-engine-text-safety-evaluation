@@ -1,6 +1,14 @@
 # AI Data Quality & Model Evaluation System
 Sensitive Text Classification (Safety-Critical AI)
 
+## Key Insight (What Actually Matters for AI Systems)
+
+Model performance was not limited by the model.
+
+Moderate inter-annotator agreement (Cohen’s Kappa ~0.4–0.5) revealed that inconsistent labeling was the primary constraint on performance.
+
+Improving annotation quality would yield greater gains than model tuning.
+
 ## Overview
 This project demonstrates an end-to-end AI data quality system for sensitive text classification. It simulates how training data, annotation consistency, and evaluation pipelines directly impact model performance.
 
@@ -16,6 +24,25 @@ This project focuses on identifying and solving that bottleneck.
 - Implemented adjudication workflow
 - Simulated multi-annotator labeling
 - Evaluated model performance using standard ML metrics
+
+## Data Engine Thinking
+
+This project simulates a scaled AI data pipeline:
+
+Raw Data → Annotation → QA → Adjudication → Evaluation → Iteration
+
+Key focus:
+- identifying failure modes (false positives / false negatives)
+- improving dataset quality instead of model complexity
+- reducing ambiguity in labeling systems
+
+## Failure Modes Identified
+
+- False positives caused by ambiguous phrasing
+- False negatives due to unclear labeling rules
+- Moderate annotator disagreement (Kappa ~0.4–0.5)
+
+These indicate data quality—not model architecture—was the limiting factor.
 
 ## Results
 - Precision: 0.84
