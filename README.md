@@ -1,5 +1,7 @@
 # AI Data Engine: Text Safety Evaluation
 
+> Built as a simulation of a production AI data engine for improving model performance through data quality.
+
 ## Key Insight (What Actually Matters for AI Systems)
 
 Model performance was not limited by the model.
