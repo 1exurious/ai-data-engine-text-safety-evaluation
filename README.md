@@ -30,3 +30,6 @@ Moderate inter-annotator agreement (Cohen’s Kappa ~0.4–0.5) revealed that la
 Improving annotation quality and reducing ambiguity is often the highest-leverage way to improve AI systems.
 
 ## Project Structure
+
+## Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix_visual.png)
