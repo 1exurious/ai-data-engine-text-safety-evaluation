@@ -6,7 +6,7 @@ Model performance was not limited by the model.
 
 Moderate inter-annotator agreement (Cohen’s Kappa ~0.4–0.5) revealed that inconsistent labeling was the primary constraint on performance.
 
-Improving annotation quality would yield greater gains than model tuning.
+I redesigned annotation logic and evaluation criteria to reduce ambiguity, demonstrating that improving data quality—not model complexity—is the highest-leverage path to better performance.
 
 ---
 
@@ -41,6 +41,15 @@ These indicate data quality—not model architecture—was the limiting factor.
 
 ---
 
+## Next Iteration Plan (How I Would Improve This System)
+
+- Refine annotation guidelines with stricter definitions and more edge-case examples  
+- Introduce annotator calibration sessions to improve agreement  
+- Implement confidence scoring for borderline classifications  
+- Adjust classification thresholds to reduce false positives while maintaining recall  
+- Expand dataset size to improve robustness across edge cases  
+
+The goal is to increase inter-annotator agreement (Kappa > 0.7) and improve overall model reliability.
 ## Results
 
 - Precision: 0.84  
