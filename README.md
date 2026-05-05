@@ -1,6 +1,6 @@
 # AI Data Engine: Text Safety Evaluation
 
-> Built as a simulation of a production AI data engine for improving model performance through data quality.
+> Built as a simulation of a production AI data engine for improving model performance through data quality. < 
 
 ## Key Insight (What Actually Matters for AI Systems)
 
@@ -74,6 +74,16 @@ This project demonstrates that:
 - Data quality is the primary driver of model performance  
 - Annotation consistency is critical for scaling ML systems  
 - Evaluation frameworks must identify root causes, not just metrics  
+
+---
+
+## Repository Structure
+
+```text
+data/      Synthetic dataset
+docs/      Annotation and evaluation documentation
+outputs/   Confusion matrix visualization
+src/       Python evaluation script
 
 ---
 
